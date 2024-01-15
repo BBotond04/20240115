@@ -1,0 +1,41 @@
+@media only screen and (MAX-width: 600px) {
+ }
+ body{
+   background-image: url(háttérkép.jpg);
+   background-color: rgb(250, 235, 215, 1);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   max-width: 900px;
+   text-align: center;
+   font-style: Arial;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   color: darkgoldenrod;
+   grid-template-columns: 1fr 2fr;
+   grid-template-areas:
+   "h h h"
+   "n a a"
+   "f f f";
+   
+ }
+ h1{
+    font-style: Arial;
+    text-align: center;
+ }
+ header{
+   background-image: url(Családfa_minta.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   grid-area: h;
+   height: 100px;
+ }
+ nav{
+   grid-area: n;
+ }
+ aside{
+   grid-area: a;
+ }
+ footer{
+   grid-area: f;
+ }
